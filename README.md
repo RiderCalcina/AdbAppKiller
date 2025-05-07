@@ -1,4 +1,4 @@
-# <img src="assets/icon.ico" width="40" alt="ADBAppKiller Icon"> ADBAppKiller
+# <img src="assets/icon.png" width="40" alt="ADBAppKiller Icon"> ADBAppKiller
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![AutoIt Version](https://img.shields.io/badge/AutoIt-v3.3.14.5+-green.svg)](https://www.autoitscript.com)
