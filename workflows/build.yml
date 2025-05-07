@@ -1,0 +1,25 @@
+name: Compile AutoIt
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup AutoIt
+      run: |
+        choco install autoit -y
+        Add-Content $env:GITHUB_PATH "C:\Program Files (x86)\AutoIt3"
+        
+    - name: Compile
+      run: |
+        "C:\Program Files (x86)\AutoIt3\Aut2Exe\Aut2Exe.exe" /in src/ADBAppKiller.au3 /out builds/ADBAppKiller.exe /icon src/assets/icon.ico
+        
+    - name: Upload Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ADBAppKiller
+        path: builds/ADBAppKiller.exe
