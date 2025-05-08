@@ -1,4 +1,4 @@
-[![License: MIT](https://opensource.org/licenses/MIT)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![AutoIt Version](https://img.shields.io/badge/AutoIt-v3.3.14.5+-green.svg)](https://www.autoitscript.com)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20|%20ADB%20Device-lightgrey.svg)]()
 
